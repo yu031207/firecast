@@ -4,6 +4,6 @@
 //     예) 'https://firecast-kma.내아이디.workers.dev'
 //  2) KMA_KEY   : 기상청 API허브 인증키를 직접 넣기 (기상청이 웹페이지 직접 요청을 막으면 작동하지 않음, 키가 공개됨)
 window.FIRECAST_CONFIG = {
-  KMA_PROXY: '',
+  KMA_PROXY: 'https://firecast-kma.yu031207-771.workers.dev/',
   KMA_KEY: ''
 };
